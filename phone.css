@@ -1,0 +1,70 @@
+@media screen and (max-width: 977px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    #navbar {
+        flex-direction: column;
+        position: sticky;
+    }
+    
+    #navbar ul li a{
+        font-size: 0.4rem;
+        padding: 0px 7px;
+        padding-bottom: 8px;
+    }
+    
+    /*Home Section*/
+    #home{
+        display: flex;
+        flex-direction: column;
+        padding: 3px, 180px;
+        justify-content: center;
+        align-items: center;
+    }
+    #home::before{
+        content:"";
+        background: url('https://as2.ftcdn.net/v2/jpg/03/24/14/63/1000_F_324146337_7vIQUY798mWDBzxlJqQjGQdo7NGlJANH.jpg') no-repeat center center/cover;
+        position: absolute;
+        height: 160%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.89;
+    
+    }
+    #home h1{
+        color: white;
+        text-align: center;
+    }
+    #home p{
+        color: white;
+        text-align: center;
+    }
+    .h-primary{
+        font-size: 3.5rem;
+        padding: 12px;
+    }
+    .btn{
+        padding: 6px 18px;
+        border: 2px solid white;
+        background-color: brown;
+        color: white;
+        margin: 17px;
+        font-size: 1.7rem;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    #portf-container{
+        flex-direction: column;
+    }
+    p{
+        flex-direction: column;
+        font-size: 5px;
+    }
+}
